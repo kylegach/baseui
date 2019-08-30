@@ -46,7 +46,7 @@ export const StyledNavItem = styled<SharedPropsT>('div', props => {
   return ({
     backgroundColor: $active ? colors.primary : 'transparent',
     backgroundImage: $active
-      ? `linear-gradient(0deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92))`
+      ? `linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95))`
       : null,
     boxSizing: 'border-box',
     [$theme.direction === 'rtl'
